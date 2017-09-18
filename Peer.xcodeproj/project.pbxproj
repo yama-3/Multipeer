@@ -15,6 +15,7 @@
 		F9797C601F53DC97009A8A69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9797C5E1F53DC97009A8A69 /* LaunchScreen.storyboard */; };
 		F9797C6B1F53DC97009A8A69 /* PeerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9797C6A1F53DC97009A8A69 /* PeerTests.swift */; };
 		F9797C761F53DC97009A8A69 /* PeerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9797C751F53DC97009A8A69 /* PeerUITests.swift */; };
+		F9797C841F53DF5A009A8A69 /* ColorServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9797C831F53DF5A009A8A69 /* ColorServiceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F9797C711F53DC97009A8A69 /* PeerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9797C751F53DC97009A8A69 /* PeerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerUITests.swift; sourceTree = "<group>"; };
 		F9797C771F53DC97009A8A69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9797C831F53DF5A009A8A69 /* ColorServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorServiceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				F9797C5C1F53DC97009A8A69 /* Assets.xcassets */,
 				F9797C5E1F53DC97009A8A69 /* LaunchScreen.storyboard */,
 				F9797C611F53DC97009A8A69 /* Info.plist */,
+				F9797C831F53DF5A009A8A69 /* ColorServiceManager.swift */,
 			);
 			path = Peer;
 			sourceTree = "<group>";
@@ -196,7 +199,7 @@
 				TargetAttributes = {
 					F9797C4F1F53DC97009A8A69 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 462G5P4C3Z;
+						DevelopmentTeam = FKWJ4GR9P4;
 						ProvisioningStyle = Automatic;
 					};
 					F9797C651F53DC97009A8A69 = {
@@ -268,6 +271,7 @@
 				F9797C581F53DC97009A8A69 /* SecondViewController.swift in Sources */,
 				F9797C541F53DC97009A8A69 /* AppDelegate.swift in Sources */,
 				F9797C561F53DC97009A8A69 /* FirstViewController.swift in Sources */,
+				F9797C841F53DF5A009A8A69 /* ColorServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,8 +425,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 462G5P4C3Z;
+				DEVELOPMENT_TEAM = FKWJ4GR9P4;
 				INFOPLIST_FILE = Peer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yama3.Peer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,8 +439,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 462G5P4C3Z;
+				DEVELOPMENT_TEAM = FKWJ4GR9P4;
 				INFOPLIST_FILE = Peer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yama3.Peer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
